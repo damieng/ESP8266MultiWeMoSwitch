@@ -1,5 +1,5 @@
-# Emulate WeMo switches on an ESP8266 WiFi controller
-Create your own Alexa compatible switch for under $10
+# WeMo compatible switches on an ESP8266 WiFi board
+Create your own Alexa capable switch for under $10
 
 This has been tested with a NodeMCU v1.0 (USB based dev kit) as well as a LinkNode R4 (serial with 4 relays)
 
