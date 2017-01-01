@@ -45,3 +45,13 @@ Choose the following settings from the Tools menu in Arduino:
 Note that the generic board doesn't include device-specific pinouts so you'll need to find out what IOpins are wired to what and make appropriate changes to the source code by adding a section to the top of the source after the #includes for each pin.
 
 `const int D1 = 13;`
+
+## Credits
+
+Based on [code by Kakopappa](https://github.com/kakopappa/arduino-esp8266-alexa-wemo-switch)
+
+Subsequently added:
+
+* WiFi Manager support and SoftAP mode to avoid hard-coded WiFi credentials
+* NTP time-server support and necessary changes to headers
+* Various code refactorings
