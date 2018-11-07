@@ -8,8 +8,9 @@ This has been tested with a NodeMCU v1.0 (USB based dev kit) as well as a LinkNo
 ### Set up Arudino
 
 1. Install the [Arduino software](https://www.arduino.cc/en/Main/Software)
-2. Add ESP8266 board support to Arduino by adding `http://arduino.esp8266.com/stable/package_esp8266com_index.json` to the Arduino app preferences *Additional Boards Manager URLs*
-3. Add TimeLib library to Arduino by [downloading latest zip](https://github.com/PaulStoffregen/Time/releases) and adding that download to Arduino using *Sketch > Include Library > Add .ZIP library*
+2. Add **ESP8266** board support to Arduino by adding `http://arduino.esp8266.com/stable/package_esp8266com_index.json` to the Arduino app preferences *Additional Boards Manager URLs*
+3. Add **TimeLib** library to Arduino by [downloading latest zip](https://github.com/PaulStoffregen/Time/releases) and adding that download to Arduino using *Sketch > Include Library > Add .ZIP library*
+4. Add **WiFiManager** library to Arduino by using *Sketch > Include Library > Manage Librarys* then searching for *WiFiManager by tzapu* and pressing *Install*
 4. Open the esp8266-multi-wemo.ino file in Arduino and *Sketch > Verify/Compile*
 
 If you have no errors you are ready to proceed!
